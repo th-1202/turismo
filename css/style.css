@@ -1,6 +1,27 @@
 footer{
-text-align: center;
-background-color: rgb(67, 119, 62);
-padding: 1em;
-font-size: 0,5em;
+text-align: center !important;
+background-color: rgb(42, 136, 136) !important;
+padding: 1em !important;
+font-size: 0,5em !important;
+color: white !important;
+}
+.nav-top{
+background-color:rgb(42, 136, 136) !important;
+}
+
+.nav-link{
+text-align: left !important;
+color: white !important;   
+background-color: rgb(42, 136, 136) !important;
+margin: 0.4em  !important;
+border-radius:0.4em  !important;
+font-weight: bold !important ;
+}
+
+.btn-primary{
+background-color: rgb(44, 101, 167) !important;
+color: white !important; 
+font-weight: bold !important; 
+border-radius: 0,3em !important; 
+border-color: rgb(42, 136, 136) !important;
 }
