@@ -5,6 +5,10 @@ padding: 1em !important;
 font-size: 0,5em !important;
 color: white !important;
 }
+@media(min-widt:200px) and (max-width){}
+body {padding-bottom:25% ;}
+
+
 .nav-top{
 background-color:rgb(42, 136, 136) !important;
 }
@@ -26,10 +30,14 @@ border-radius: 0,3em !important;
 border-color: rgb(42, 136, 136) !important;
 }
 
-
+.carousel{
+display: block !important;
+visibility: visible !important;
+}
 .carousel-item video{
 width: 100% !important;
 }
+
 .container-fluid{
 text-align: center !important;
 background-color: rgb(42, 136, 136) !important;
@@ -54,7 +62,34 @@ margin: 0% 3% 3% !important;
 
 .sec-contato{
 margin-bottom: 10% !important;
-margin-left: 10% !important;
-margin-right: 10% !important;
-    }
+background-color: rgb(156, 156, 156) !important;
+}
+#img{
+object-fit: cover !important;
+width: 100% !important;
+height: 25em !important; 
+padding: 2em !important
+
+}
+
+#img-col-3{
+padding: 2em !important;
+width: 50% !important;
+height: 15em !important;
+}
+
+#contatos-for{
+text-align: center !important;
+color: aliceblue !important;
+padding: 2% !important;
+}
+#maps{
+width: 90% !important;
+height: 70% !important;
+}
+#whatsapp{
+width: 20% !important;
+}
+
     
+
